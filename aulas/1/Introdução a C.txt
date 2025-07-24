@@ -52,4 +52,6 @@ E quando se trata de printar uma informação na tela? Segue...
     Já quando queremos printar algo em C, fazemos o seguinte:
         printf("Olá, mundo!"); ||||| Usamos as aspas simples '' quando há apenas um digito na string, se houver mais, usamos as aspas duplas ""
 
+    Tudo isso pode ser visto em funcionamento através do arquivo [coding/bs_aula1_2]!
+
 

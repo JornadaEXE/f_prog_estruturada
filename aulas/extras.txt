@@ -1,0 +1,9 @@
+Arquivo de extras para informações além-curso.
+
+-------Instalação e Running C-------
+
+    Para rodar o C, são necessários os seguintes componentes:
+        - Compiler and Run C/C++  ||||| Pode ser instalado de dentro do VSCode, é o que vai de fato rodar nosso código
+        - C/C++ para VSCode ||||| Identifica e indenta o código C quando está no Visual Studio
+        - MinGW ||||| Arquivo está no drive, deve ser extraído no disco C e definido como uma variável de Path dentro das Váriaveis de ambiente
+        é o que faz e possibilita o Compiler a executar suas funções.
