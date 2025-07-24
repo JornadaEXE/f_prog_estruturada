@@ -1,0 +1,55 @@
+Por que usar C?
+
+É uma linguagem construída para ter um melhor desenpenho quando comparada a uma linguagem como o Python por exemplo.
+
+C é fortemente tipado.
+
+Ela também disponibiliza um melhor controle de aspectos quando ligados ao espaço de memória.
+
+Algumas implementações da linguagem em Python, são baseadas em C!
+ - Como assim?
+  - Python tem o C abaixo do seu próprio fonte para rodar com melhor desenpenho funções como o print! Sim, o print é na verdade uma dose de códigos C.
+
+O C tem um código base fundamental para rodar sempre em um projeto. Qual é esse código? Confira abaixo ====>
+
+    -----Linguagem C - Código Base--------
+
+    #include <stdio.h> ||||| Sempre quando se trata da linguagem C, precisamos ao menos importar uma biblioteca para seu funcionamento, essa é uma
+    #include <locale.h> ||||||
+
+    int main() ||||| Aqui no C, o nosso programa principal, não é nada menos do que uma função do código
+    {
+        setlocale(LC_ALL,"Portuguese"); ||||| Define o local do programa como portuguese, permitindo usar os caracteres específicos que temos no português
+
+        return 0;
+
+    }
+
+    Isso é o mínimo para um código C funcionar. Veja ele em funcionamento no caminho [coding/bs_aula1_1.c]
+
+    <stdio.h> === StandardInpuntOutput, é o que traz um novo arquivo para o sistema, que permite que as funções seja utilizadas.
+        - É como um import no Python, porém, tendo também que importar as funcionalidades base da linguagem
+    <locale.h> === Permite importar o local do nosso programa, que permite usar palavras com acento e tudo mais ao definirmos o local como Portuguese
+
+
+
+    int main() === Apenas o main não funciona, dessa forma temos de chamar o int, para definir esa variável como inteira
+
+    Apartir da abertura de {}, é onde estaremos realmente escrevendo nosso programa
+
+    O ; é necessário no fim da instrução/linha para rodar nosso programa
+
+O C não se orienta pela indentação como no Python, aqui a indentação serve para organização.
+    - O que separa e delimita o código C são as {} e ;, ou seja, muito parecido com LSP.
+    - Dessa forma, todo o código acima pode facilmente funcionar em apenas uma linha.
+
+E quando se trata de printar uma informação na tela? Segue...
+
+    ------Linguagem C - Função de Saída---------
+
+    Como sabemos, quando queremos printar uma info no Python, usamos a cláusula abaixo:
+        print('Olá, mundo!')
+    Já quando queremos printar algo em C, fazemos o seguinte:
+        printf("Olá, mundo!"); ||||| Usamos as aspas simples '' quando há apenas um digito na string, se houver mais, usamos as aspas duplas ""
+
+
